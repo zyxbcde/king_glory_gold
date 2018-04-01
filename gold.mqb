@@ -1,0 +1,26 @@
+While GetPixelColor(1797, 69) <> "FFFEFE"
+	Delay 100
+Wend
+Tap 1797, 69
+
+Delay 500
+Swipe 252, 854, 180, 720, 27000
+Tap 1785, 36
+	
+While GetPixelColor(1780, 69) <> "FCFBF8"
+	Delay 100
+Wend
+Tap 1780, 69
+
+While GetPixelColor(1604, 973) <> "FAFAFA"
+	Delay 100
+	Tap 1604, 973
+Wend
+Tap 1604, 973
+
+Delay 1000
+
+While GetPixelColor(1429, 911) <> "E3E3E3"
+	Delay 100
+Wend
+Tap 1496, 901
